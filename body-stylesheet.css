@@ -1,0 +1,97 @@
+ol{
+    counter-reset: counter;
+    list-style-type: none;
+}
+
+li::before{
+    counter-increment: counter;
+    content: counters(counter,'.') ' ';
+}
+
+.journey-index{
+    display: inline-block;
+    width: 100%;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.index-item{
+    width: 45%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    /* text-align: center; */
+}
+
+.journey-index h2{
+    /* text-align: center; */
+    padding-left: 40px;
+}
+
+.transportation{
+    display: inline-block;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.transportation img{
+    padding-top: 30px;
+    width: 80%;
+}
+
+.index-container{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.index-line{
+    background-color: #ffffad;
+}
+
+.dairy{
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    border-left: solid 0.5px rgb(201, 195, 195);
+    border-right: solid 0.5px rgb(201, 195, 195);
+}
+
+.dairy h1{
+    text-align: center;
+    background-image: url(./link/day-backgroud.jpeg);
+}
+
+.dairy h2{
+    text-align: center;
+}
+
+.dairy img{
+    width: 48%;
+}
+
+.day-by-dairy{
+    margin-bottom: 80px;
+}
+
+.spot-by-dairy{
+    margin-bottom: 40px;
+}
+
+.link-box{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link-detail{
+    padding-left: 40px;
+    text-align: center;
+}

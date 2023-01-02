@@ -1,0 +1,20 @@
+footer{
+    height: 220px;
+    background-color: azure;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer h1{
+    padding-top: 80px;
+    text-align: center;
+}
+
+footer h4{
+    text-align: center;
+}
+
+footer p{
+    text-align: right;
+}
